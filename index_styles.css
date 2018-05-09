@@ -53,10 +53,10 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+
   margin: auto;
   width: 60vw;
-  
+
   border-color: #222;
   border-width: 5px;
   border-style: dotted;
@@ -88,4 +88,16 @@ img {
 .accounts_associated {
   display: flex;
   justify-content: space-around;
+}
+
+.article {
+  margin: auto;
+  width: 800px;
+  font-family: helvetica;
+  line-height: 1.7;
+  font-size: 140%;
+}
+
+.no_underline{
+  text-decoration: none;
 }
